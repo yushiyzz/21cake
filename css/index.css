@@ -1,0 +1,46 @@
+           /*轮播图*/
+           .wrapper {
+           	width: 100%;
+           	height: 480px;
+           	overflow: hidden;
+           	margin-top: 80px;
+           	position: relative;
+           }
+           .wrapper ul {
+           	width: 100%;
+           	height: 480px;
+           	overflow: hidden;
+           	position: relative;
+           }
+           .wrapper ul li {
+           	height: 480px;
+           	width: 100%;
+           	position: absolute;
+           	top: 0;
+           	left: 0;
+           }
+           .wrapper ul li img {
+           	height: 480px;
+           	width: 100%;
+           }
+           .wrapper ol {
+           	position: absolute;
+           	right: 638px;
+           	bottom: 10px;
+           	width: 110px;
+           }
+           .wrapper ol li {
+           	float: left;
+           	width: 15px;
+           	height: 15px;
+           	margin: 0 5px;
+           	text-align: center;
+           	border-radius: 50%;
+           	cursor: default;
+           	background-color: #abc;
+           }
+           .wrapper ol li.current {
+           	background-color: #643E28;
+           }
+
+          
