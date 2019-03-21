@@ -75,5 +75,21 @@
  	xiao.mouseout(function(){
  		xiaoxi.css("display","none");
  	})
-
+ 	//微信 APP
+ 	
+    $(".footer-weixin").hover(function(){
+        $('.footer-weixin-erweima').show().find('img').animate({top:0}, 200);
+    },function(){
+        $('.footer-weixin-erweima').hide().find('img').css('top','100%');
+    });
+     $(".footer-app").hover(function(){
+        $('.footer-app-erweima').show().find('img').animate({top:0}, 200);
+    },function(){
+        $('.footer-app-erweima').hide().find('img').css('top','100%');
+    })
+    $(document).ready(function(){
+        $('div[id*="xunlei_com"]').remove();
+        $('#jcps').remove();
+    });
+     
 

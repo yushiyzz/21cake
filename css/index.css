@@ -1,3 +1,4 @@
+         
            /*轮播图*/
            .wrapper {
            	width: 100%;
@@ -42,5 +43,215 @@
            .wrapper ol li.current {
            	background-color: #643E28;
            }
+           /*专区*/
+           .zhuanqu {
+           	width: 1124px;
+           	margin: 26px auto 0;
+           	overflow: hidden;
+           }
+           .zhuanqu li {
+           	float: left;
+           	margin: 6px 12px;
+           	width: 200px;
+           	height: 100px;
+           	border-radius: 10px;
+           	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.06);
+           }
+           .zhuanqu:after {
+           	content: ".";
+           	clear: both;
+           	display: block;
+           	height: 0;
+           	overflow: hidden;
+           	visibility: hidden;
+           }
+           /* 新品*/
+           .new {
+           	width: 1100px;
+           	margin: 0px auto;
+           	margin-top: 70px;
+           	height: 2760px;
+           }
+           .new h4 {
+           	font-size: 28px;
+           	color: #724228;
+           }
+           .new h4 span {
+           	font-size: 14px;
+           	color: #8e5d43;
+           }
+           .new .mid {
+           	margin-top: 30px;
+           	width: 1100px;
+           }
+           .new ul {
+           	width: 1116px;
+           	margin: 20px auto 0;
+           }
+          
 
+           .new ul li {
+          
+           	height: 363px;
+           	float: left;
+           	margin-right: 12px;
+           }
+           .new ul li .lazy {
+           	width: 264px;
+           	height: 230px;
+           	background: #fafafa;
+           	border-radius: 5px;
+           }
+           .new .milk {
+           	font-size: 17px;
+           	color: #000000;
+           	margin-top: 12px;
+           	display: block;
+           }
+           .new .pc {
+           	font-size: 14px;
+           	display: block;
+           	margin-top: 4px;
+           	color: #d2a177;
+           }
+           .new .tag-list {
+           	margin-top: 10px;
+           }
+           .new .tag-list:after {
+           	content: ".";
+           	clear: both;
+           	display: block;
+           	height: 0;
+           	overflow: hidden;
+           	visibility: hidden;
+           }
+           .a1,.a2,.a3,.a4{
+           	display: none;
+           	border-radius: 10px;
+           	border: 1px solid #d5bfa7;
+           	width: 54px;
+           	height: 20px;
+           	float: left;
+           	color: #d5bfa7;
+           	font-size: 12px;
+           	line-height: 20px;
+           	text-align: center;
+           	margin-right: 5px;
+           	margin-top: 15px;
+           }
+           .new .cart-info {
+           	width: 264px;
+           	height: 40px;
+           	margin-top: 14px;
+           	border-top: 1px dashed #d5bfa7;
+           	font-size: 12px;
+           }
+           .new .cart-info span {
+           	color: #d5bfa7;
+           	margin-top: 14px;
+           	display: block;
+           	width: 95px;
+           	float: left;
+           }
+           .new .cart-info .add-cart {
+           	width: 80px;
+           	height: 20px;
+           	display: block;
+           	background: #643e28;
+           	color: floralwhite;
+           	margin-top: 14px;
+           	line-height: 20px;
+           	text-align: center;
+           	float: right;
+           }
+           .new ul li img{
+           	width: 263px;
+		    height: 230px;
+		    background: #fafafa url(../img/list-img.png) center no-repeat;
+		    background-size: auto 100%;
+		    display: block;
+		    margin: auto;
+		    border-radius: 8px;
+		}
+           
+           /*活动门*/
+           .play {
+           	width: 1100px;
+           	margin: 0px auto;
+           	margin-top: 70px;
+           
+           }
+          
+           .play h4 {
+           	font-size: 28px;
+           	color: #724228;
+           }
+           .play h4 span {
+           	font-size: 14px;
+           	color: #8e5d43;
+           }
+           .play img {
+           	margin-top: 35px;
+           }
+           /*一客*/
+           .yike {
+           	width: 1100px;
+           	margin: 0px auto;
+           	margin-top: 70px;
+           }
+           .yike img {
+           	width: 100%;
+           }
+           .ke1,
+           .ke2 {
+           	width: 546px;
+           	height: 350px;
+           	border: 1px solid #f4f4f4;
+           	border-radius: 5px;
+           	margin-top: 35px;
+           }
+           .ke1 {
+           	float: left;
+           }
+           .ke2 {
+           	float: right;
+           }
+           .yike h4 {
+           	font-size: 28px;
+           	color: #724228;
+           	float: left;
+           	display: block;
+           	width: 1000px;
+           }
+           .yike a h5 {
+           	font-size: 14px;
+           	color: #8e5d43;
+           	float: right;
+           }
+           .yike a h6 {
+           	font-size: 14px;
+           	color: #8e5d43;
+           	float: left;
+           	display: block;
+           	margin-left: 10px;
+           	margin-top: 20px;
+           }
+           .yike h4 span {
+           	font-size: 14px;
+           	color: #8e5d43;
+           }
+           .yike:after {
+           	content: ".";
+           	clear: both;
+           	display: block;
+           	height: 0;
+           	overflow: hidden;
+           	visibility: hidden;
+           }
+           .yike h3 {
+           	display: block;
+           	font-size: 22px;
+           	margin-top: 22px;
+           	margin-left: 10px;
+           }
           
