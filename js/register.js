@@ -9,4 +9,5 @@
      	$("#telephone +").css("display","inline");
      	$(".err-text span").html("");
     }
-  
+  	//密码验证
+  	var  
