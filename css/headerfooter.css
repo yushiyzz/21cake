@@ -20,6 +20,7 @@
             	left: 0;
             	z-index: 100;
             	background: white;
+            	box-shadow: 0 2px 2px 0 rgba(195,195,195,0.5);
             }
             
             header ul {
@@ -36,7 +37,7 @@
             }
             
             header a {
-            	color: #ea9c3d;
+            	color: #684029;
             	font-size: 14px;
             }
             
